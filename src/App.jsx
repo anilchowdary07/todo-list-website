@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import { v4 as uuidv4 } from 'uuid';
 import { FaEdit } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
-import Footer from './components/Footer'
+import Footer from './components/footer'
 function App() {
   const [todo, settodo] = useState("")
   const [todos, settodos] = useState([])
