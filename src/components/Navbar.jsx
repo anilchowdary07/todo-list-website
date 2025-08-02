@@ -3,10 +3,10 @@ const Navbar = () => {
   return (
    <nav className='flex justify-around bg-slate-900 text-white py-2'>
     <div className="logo">
-        <span className='font-bold text-xl mx-8 '>i Task</span>
+        <span className='font-bold text-xl mx-8 '> Task Manager</span>
     </div>
     <ul className="flex gap-9 mx-10">
-        <li className='cursor-pointer hover:font-bold transition-all'>Home</li>
+        <li className='cursor-pointer hover:font-bold transition-all'></li>
         <li className='cursor-pointer hover:font-bold transition-all'>Your Tasks</li>
     </ul>
    </nav>
